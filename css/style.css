@@ -1,10 +1,10 @@
 * {
-    cursor: url("../cursors/use3.cur"), auto;
+    cursor: url("../cursors/CursorsXP.cur"), auto;
     font-family: "Lucida Console", "Courier New", monospace;
 }
 body {
     font-family: 'Lato', sans-serif;
-    cursor: url("../cursors/use3.cur"), auto;
+    cursor: url("../cursors/CursorsXP.cur"), auto;
 }
 
 .dark_mode {
@@ -53,6 +53,7 @@ p {
 #parag {
     float: left;
     width: 500px;
+   
 }
 
 .edu {
