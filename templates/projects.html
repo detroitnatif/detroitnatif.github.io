@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <title>Maya's Portfolio</title>
+    <head>
+        <link rel="icon" type="image/png" href="../imgs/avatar_mayo.jpeg"/>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/navMenu.css">
+    </head>
+    <div id="pancakeMenu" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="../index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="blog.html">Blog</a>
+          <a href="expirence.html">Experience</a>
+          <a href="MayaWallachCV.pdf" target="_blank">CV</a>
+          <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <body>
+        <span style="font-size:30px;cursor:url('../cursors/gam874.cur'), auto;" onclick="openNav()">&#9776;</span>
+        <span style="float: right;" onclick="dark()"><img id="icon" style="height: 20px; width: 20px;cursor:url('../cursors/gam874.cur'), auto;" src="imgs/moon.png"></span>
+        <h1>Projects</h1>
+        <div class="projs1">
+            <div class="klaudOS" style="width: 300;padding: 10px;">
+                <h2>KlaudOS</h2>
+                <p>Klaud themed operating system</p>
+                <ul>
+                    <li>Details: </li>
+                    <ul>
+                        <li>Handmade 2 stage Bootloader and Kernel</li>
+                        <li>Klaud file system</li>
+                        <li>32 bit protected mode</li>
+                        <li>Interactive shell</li>
+                        <li>Languages: C, x86 assembly</li>
+                    </ul>
+                    <li><a href="https://github.com/coldmayo/KlaudOS" target="_blank">GitHub</a></li>
+                    <li><a href="https://youtu.be/WxshTlzFjFA?si=CbYugUQQH-7Y5Bdq" target="_blank">Demo Video</a></li>
+                </ul> 
+            </div>
+        </div>
+        <div class="projs1">
+            <div class="KlaudFS" style="width: 300;padding: 10px;">
+                <h2>Klaud File System</h2>
+                <p>The Klaud File System</p>
+                <ul>
+                    <li>Details: </li>
+                    <ul>
+                        <li>UNIX like commands (mkdir, cd, ls, etc)</li>
+                        <li>Based off of Filesystem Hierarchy Standard (FHS)</li>
+                        <li>Now supported in KlaudOS</li>
+                        <li>Languages: C</li>
+                    </ul>
+                    <li><a href="https://github.com/coldmayo/KlaudFileSystem" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="projs1">
+            <div class="klaudWeb" style="width: 300;padding: 10px;">
+                <h2>Klaud Website</h2>
+                <p>KlaudOS Website + web server</p>
+                <ul>
+                    <li>Details: </li>
+                    <ul>
+                        <li>Simple and fast static website for the KlaudOS</li>
+                        <li>Will someday be launched publicly while using a Raspberry Pi as a server</li>
+                        <li>HTTP server made in C</li>
+                        <li>Languages: C, HTML, CSS</li>
+                    </ul>
+                    <li><a href="https://github.com/coldmayo/KlaudWebsite" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="projs1">
+            <div class="CrackMes" style="width: 300;padding: 10px;">
+                <h2>SolvedCrackMes</h2>
+                <p>Repository of CrackMes and their solutions (For Linux)</p>
+                <ul>
+                    <li>Details: </li>
+                    <ul>
+                        <li>CrackMes from crackmes.one, challenges.re, NoraCodes</li>
+                        <li>Each folder has an ELF file and C file with deduced source code</li>
+                        <li>explain.txt for every problem that explains every solution</li>
+                        <li>Languages: C & Python</li>
+                        <li>Tools: Radare2, Ghidra, Objdump</li>
+                    </ul>
+                    <li><a href="https://github.com/coldmayo/SolvedCrackMes" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="projs1">
+            <div class="NumStatID" style="width: 300;padding: 10px;">
+                <h2>Number Station Id</h2>
+                <p>Using Machine Learning to Identify Number Stations</p>
+                <ul>
+                    <li>Details: </li>
+                    <ul>
+                        <li>CNN (built from scratch) used for classification</li>
+                        <li>Interactive GUI made with PyQt5</li>
+                        <li>Can identify up to 15 different number stations</li>
+                        <li>Languages: Python</li>
+                        <li>Tools: PyTorch & Detectron2</li>
+                    </ul>
+                    <li><a href="https://github.com/coldmayo/NumberStationIdentification" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="projs1">
+            <div class="MMBCReco" style="width: 300;padding: 10px;">
+                <h2>MMBCReco</h2>
+                <p>Using Machine Learning to Identify/Classify tracks in a bubble chamber</p>
+                <ul>
+                    <li>Details: </li>
+                    <ul>
+                        <li>DCGAN that generates data from a video of a Bubble Chamber</li>
+                        <li>Faster R-CNN that can detect tracks</li>
+                        <li>Script that can produce track data with annotations in COCO format</li>
+                        <li>Languages: Python</li>
+                        <li>Tools: PyTorch & Detectron2</li>
+                    </ul>
+                    <li><a href="https://github.com/coldmayo/MMBCReco" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+    <script defer src="../javascript/main.js"></script>
+    <script defer src="../javascript/navMenu.js"></script>
+</html>
