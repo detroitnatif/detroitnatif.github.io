@@ -47,3 +47,17 @@
     right: 35px;
     }
   }
+
+
+  #pancakeMenu .menu-icon {
+    width: 100px; /* Increase width */
+    height: 100px; /* Increase height */
+}
+
+/* Styling for the lines/bars of the pancake menu icon */
+#pancakeMenu .menu-icon .bar {
+    width: 80%; /* Adjust the width of the lines */
+    height: 4px; /* Adjust the height of the lines */
+    background-color: #333; /* Color of the lines */
+    margin: 6px auto; /* Adjust the spacing between the lines */
+}
