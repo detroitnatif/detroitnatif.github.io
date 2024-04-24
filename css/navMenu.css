@@ -36,27 +36,33 @@
   .overlay-content .tilt-right:hover {
 
     transform: translateX(-2px) translateY(4px);
+    color: white;
     
   }
   
   .overlay-content .tilt-left:hover {
     transform: translateX(-2px) translateY(4px);
+    color: white;
   }
   
   .overlay-content .flip-vertical:hover {
     transform: translateX(-2px) translateY(4px);
+    color: white;
   }
   
   .overlay-content .flip-horizontal:hover {
     transform: translateX(-2px) translateY(4px);
+    color: white;
   }
   
   .overlay-content .rotate-full:hover {
     transform: translateX(-2px) translateY(4px);
+    color: white;
   }
   
   .overlay-content .no-transform:hover {
     transform: translateX(-2px) translateY(4px);
+    color: white;
   }
   
   
