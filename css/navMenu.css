@@ -27,9 +27,39 @@
     transition: 0.3s;
   }
   
-  .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
+  /* .overlay a:hover, .overlay a:focus {
+    color: #ffffff;
+    transform: rotate(2deg);
+    
+
+  } */
+  .overlay-content .tilt-right:hover {
+
+    transform: translateX(-2px) translateY(4px);
+    
   }
+  
+  .overlay-content .tilt-left:hover {
+    transform: translateX(-2px) translateY(4px);
+  }
+  
+  .overlay-content .flip-vertical:hover {
+    transform: translateX(-2px) translateY(4px);
+  }
+  
+  .overlay-content .flip-horizontal:hover {
+    transform: translateX(-2px) translateY(4px);
+  }
+  
+  .overlay-content .rotate-full:hover {
+    transform: translateX(-2px) translateY(4px);
+  }
+  
+  .overlay-content .no-transform:hover {
+    transform: translateX(-2px) translateY(4px);
+  }
+  
+  
   
   .overlay .closebtn {
     cursor: url("../cursors/CursorsXP.cur"), auto;
