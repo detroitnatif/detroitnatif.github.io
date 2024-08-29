@@ -7,10 +7,28 @@
         <link rel="stylesheet" href="../css/navMenu.css">
         <style>
             .grid-container {
-                display: inline-block;
-                width: 48%;
-                vertical-align: top;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(25%, 1fr)); /* Reduced min width to 200px */
+                gap: 10px; /* Adjusts space between items */
                 margin: 1%;
+
+            }
+
+            .grid-item {
+                background-color: #ffffff;
+                padding: 10px;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                border-radius: 10px;
+            }
+
+            .edu {
+                padding: 5px 0; /* Reduced padding */
+            }
+
+            @media (max-width: 300px) {
+                .grid-container {
+                    grid-template-columns: 1fr;
+                }
             }
         </style>
     </head>
@@ -40,8 +58,8 @@
         <div class="jobs">
             <br>
             <h2>Jobs</h2>
-            <div id="parent1">
-                <div class="grid-container">
+            <div class="grid-container">
+                <div class="grid-item">
                     <div class="edu">
                         <h3 style="text-align: center; margin-bottom: 48px;">Technical Product Manager @ Validity.id</h3>
                         <h4 style="text-align: center;">Chicago, IL</h4>
@@ -56,7 +74,7 @@
                         </p><br>
                     </div>
                 </div>
-                <div class="grid-container">
+                <div class="grid-item">
                     <div class="edu">
                         <h3 style="text-align: center; margin-bottom: 46px;">Business Development Intern @ Founder's Table</h3>
                         <h4 style="text-align: center;">New York, NY</h4>
@@ -71,8 +89,8 @@
                     </div>
                 </div>
             </div>
-            <div id="parent1">
-                <div class="grid-container">
+            <div class="grid-container">
+                <div class="grid-item">
                     <div class="edu" style="margin-top: -20px;">
                         <br>
                         <h3 style="text-align: center;">Quantitative Analyst Intern @ Kiski Financial Group</h3>
@@ -87,7 +105,7 @@
                         </p><br>
                     </div>
                 </div>
-                <div class="grid-container">
+                <div class="grid-item">
                     <div class="edu">
                         <br>
                         <h3 style="text-align: center;">Software Engineer Intern @ Duke Office of Information and Technology</h3>
@@ -106,6 +124,7 @@
         <br>
     </body>
 </html>
+
 
         <!-- <h2>Skills</h2> -->
         <!-- <div class="skills">
