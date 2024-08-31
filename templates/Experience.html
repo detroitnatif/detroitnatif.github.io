@@ -20,6 +20,14 @@
                 box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
                 border-radius: 10px;
             }
+            .grid-item, .edu {
+    color: #000000; /* This ensures the text stays black */
+}
+
+body.dark-mode .grid-item, 
+body.dark-mode .edu {
+    color: #000000 !important; /* Forces text color to stay black in dark mode */
+}
 
             .edu {
                 padding: 5px 0; /* Reduced padding */
@@ -122,40 +130,6 @@
             </div>
         </div>
         <br>
-
-
-
-        <!-- <h2>Skills</h2> -->
-        <!-- <div class="skills">
-            <div class = "langs">
-                <h3>Languages</h3>
-                <img style="width: 100px;height: 100px;" src="../imgs/python.png">
-                <img style="width: 100px;height: 100px;" src="../imgs/R.png">
-                <img style="width: 100px;height: 100px;" src="../imgs/C++.png">
-                <img style="width: 100px;height: 100px;" src="../imgs/C.png">
-                <img style="width: 100px;height: 100px;" id="rust" src="imgs/rust.png">
-                <img style="width: 100px;height: 100px;" src="../imgs/html.png">
-                <img style="width: 100px;height: 100px;" src="../imgs/css.png">
-                <img style="width: 100px;height: 100px;" src="../imgs/javascript.png">
-                <img style="width: 100px;height: 100px;" src="../imgs/x86.png">
-                <img style="width: 100px;height: 100px;" src="../imgs/sql.png">
-            </div>
-
-            <div class = "langs">
-                <h3>Frameworks</h3>
-                <img style="width: 100px;height: 100px;" src="../imgs/tensorf.png">
-                <img style="width: 100px;height: 100px;" src="../imgs/pytorch.png">
-                <img style="width: 150px;height: 100px;" src="../imgs/sklearn.png">
-                <img style="width: 100px;height: 100px;" src="../imgs/opencv.png">
-            </div>
-            
-            <div class="langs">
-                <h3>Tools</h3>
-                <img style="width: 100px;height: 100px;" src="../imgs/git.png">
-                <img style="width: 100px;height: 100px;" src="../imgs/linux.png">
-                <img style="width: 100px;height: 100px;" src="../imgs/jupyter.png">
-            </div>
-        </div> -->
     </body>
     <script defer src="../javascript/main.js"></script>
     <script defer src="../javascript/navMenu.js"></script>
